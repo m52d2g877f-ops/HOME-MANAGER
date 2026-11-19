@@ -1,0 +1,11 @@
+name = "my-private-rsvp-manager"
+main = "worker.mjs"
+compatibility_date = "2026-11-12"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rsvp-manager-db"
+database_id = "7511aea6-8664-49cf-bc02-990cd91f4d0e"
+[triggers]
+crons = ["*/15 * * * *"]
