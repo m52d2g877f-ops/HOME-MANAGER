@@ -8,4 +8,4 @@ binding = "DB"
 database_name = "rsvp-manager-db"
 database_id = "7511aea6-8664-49cf-bc02-990cd91f4d0e"
 [triggers]
-crons = ["*/15 * * * *"]
+crons = ["*/15 * * * *", "* * * * *"]
